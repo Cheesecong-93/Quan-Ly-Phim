@@ -45,7 +45,7 @@ public class Main {
                 }
                 case 5 -> ql.hienThi();
                 case 6 -> ql.ghiFile("output.txt");
-                case 7 -> ql.docFile("\"E:\\java\\phim.txt\""); // Windows
+                case 7 -> ql.docFile("\"E:\\java\\phim.txt\"");
 
                 case 8 -> {
                     System.out.print("Nhap the loai: ");

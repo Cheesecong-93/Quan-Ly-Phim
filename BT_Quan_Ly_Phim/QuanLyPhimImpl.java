@@ -91,10 +91,8 @@ class QuanLyPhimImpl implements IQuanLyPhim {
     public void docFile(String tenFile) {
         ds.clear();
         try {
-            // Dùng đường dẫn tuyệt đối mà bạn cung cấp
-            File fullPath = new File("E:\\java\\phim.txt");
+            File fullPath = new File("E:\\Quan-Ly-Phim\\phim.txt");
 
-            // Kiểm tra file trước khi đọc
             if (!fullPath.exists()) {
                 System.out.println("File khong ton tai: " + fullPath.getAbsolutePath());
                 return;
